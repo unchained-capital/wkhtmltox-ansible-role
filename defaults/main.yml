@@ -1,0 +1,16 @@
+---
+
+wkhtmltox_packages:
+  - build-essential
+  - libssl-dev
+  - libxrender-dev
+  - xorg
+
+wkhtmltox_major_version:   0.12
+wkhtmltox_version:         0.12.4
+wkhtmltox_arch:            "linux-generic-amd64"
+wkhtmltox_release_url:     "https://downloads.wkhtmltopdf.org/{{ wkhtmltox_major_version }}/{{ wkhtmltox_version }}/wkhtmltox-{{ wkhtmltox_version }}_{{ wkhtmltox_arch }}.tar.xz"
+
+wkhtmltox_download_dir: /usr/local/src
+wkhtmltox_prefix_dir:   /usr/local/share
+wkhtmltox_bin_dir:      /usr/local/bin
